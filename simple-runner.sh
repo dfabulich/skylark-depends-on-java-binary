@@ -1,0 +1,1 @@
+./my-other-runner > $1

@@ -15,3 +15,9 @@ java_library(
 simple(
 	name='simple'
 )
+
+sh_binary(
+	name='simple-runner',
+	srcs=['simple-runner.sh'],
+	data=['my-other-runner'],
+)
